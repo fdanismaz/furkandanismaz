@@ -25,8 +25,12 @@
 	    var target = this.hash,
 	    $target = $(target);
 
+        var scrollTop = $target.offset().top;
+        if (target != "#about")
+            scrollTop -= 60;
+
 	    $('html, body').stop().animate({
-	        'scrollTop': $target.offset().top
+	        'scrollTop': scrollTop
 	    }, 800, 'swing', function () {
 	        window.location.hash = target;
 	    });
