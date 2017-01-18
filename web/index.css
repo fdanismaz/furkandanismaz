@@ -1,0 +1,63 @@
+html {
+    background-color: #eae8e7;
+}
+
+body{
+    padding-top: 30px;
+    background-color: #eae8e7;
+}
+
+.summary {
+    background-color: rgb(93, 164, 217);
+    padding-bottom: 150px;
+    color: white;
+}
+
+.profile-title {
+    position: absolute;
+    top: 360px;
+    color: white;
+    margin-left: 15px;
+}
+
+.profile-frame {
+    position: relative;
+    width: 100%;
+}
+
+.profile-image {
+    /*width: 370px;*/
+    margin: 0px;
+    width: 100%;
+}
+
+.name {
+    font-size: 24px;
+}
+
+.role {
+    font-size: 14px;
+}
+
+.about-me {
+    margin-top: 15px;
+}
+
+.summary-section {
+    margin-bottom: 20px;
+}
+
+.summary-section-text {
+    margin-top: 5px;
+}
+
+.details-section {
+    background-color: white;
+    height: 200px;
+    margin-left: 10px;
+    padding-top: 30px;
+}
+
+.details-section-icon {
+    padding-left: 40px;
+}
