@@ -809,3 +809,15 @@ properly.
 .contact-text:hover {
     color:rgb(244, 127, 39);
 }
+
+.skills > li.normal {
+    margin-bottom: 110px;
+}
+
+.skills > li.large {
+    margin-bottom: 150px;
+}
+
+.skills > li > p {
+    margin-top: -20px;
+}

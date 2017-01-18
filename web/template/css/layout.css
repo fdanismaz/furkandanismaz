@@ -193,8 +193,9 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#about a, #about a:visited  { color: #11ABB0; }
+#about a:hover, #about a:focus { color: #fff; }
+#about a.download { color: #fff }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
@@ -296,19 +297,18 @@ ul#nav li.current a { color: #F06000; }
    list-style: none;
 }
 .bars li {
-   position: relative;
-  	margin-bottom: 60px;
-  	background: #ccc;
-  	height: 42px;
-  	border-radius: 3px;
+  position: relative;
+  background: #ccc;
+  height: 7px;
+  border-radius: 3px;
 }
 .bars li em {
-	font: 15px 'opensans-bold', sans-serif;
-   color: #313131;
+  font: 15px 'opensans-bold', sans-serif;
+  color: #313131;
 	text-transform: uppercase;
-   letter-spacing: 2px;
+  letter-spacing: 2px;
 	font-weight: normal;
-   position: relative;
+  position: relative;
 	top: -36px;
 }
 .bar-expand {
@@ -318,90 +318,90 @@ ul#nav li.current a { color: #F06000; }
 
    margin: 0;
    padding-right: 24px;
-  	background: #313131;
+   background: #11ABB0;
    display: inline-block;
-  	height: 42px;
+   height: 7px;
    line-height: 42px;
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.pl {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: pl 2s ease;
+  	-webkit-animation: pl 2s ease;
 }
-.html5 {
+.webapp {
   	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+  	-moz-animation: webapp 2s ease;
+  	-webkit-animation: webapp 2s ease;
 }
-.jquery {
+.mobileapp {
   	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+  	-moz-animation: mobileapp 2s ease;
+  	-webkit-animation: mobileapp 2s ease;
+}
+.desktopapp {
+  	width: 75%;
+  	-moz-animation: desktopapp 2s ease;
+  	-webkit-animation: desktopapp 2s ease;
+}
+.unittest {
+  	width: 80%;
+  	-moz-animation: unittest 2s ease;
+  	-webkit-animation: unittest 2s ease;
+}
+.dbms {
+  	width: 50%;
+  	-moz-animation: dbms 2s ease;
+  	-webkit-animation: dbms 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-moz-keyframes css {
+@-moz-keyframes pl {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-moz-keyframes html5 {
+@-moz-keyframes webapp {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-moz-keyframes jquery {
+@-moz-keyframes mobileapp {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-moz-keyframes desktopapp {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes unittest {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-moz-keyframes dbms {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
-}
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
-}
-@-webkit-keyframes css {
+@-webkit-keyframes pl {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
-@-webkit-keyframes html5 {
+@-webkit-keyframes webapp {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
-@-webkit-keyframes jquery {
+@-webkit-keyframes mobileapp {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+@-webkit-keyframes desktopapp {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes unittest {
+  0%   { width: 0px;  }
+  100% { width: 80%;  }
+}
+@-webkit-keyframes dbms {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
