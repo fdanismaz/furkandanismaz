@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 30px;s
+   padding-bottom: 30px;
    text-align: center;
 }
 
@@ -351,7 +351,7 @@ ul#nav li.current a { color: #F06000; }
   	-webkit-animation: unittest 2s ease;
 }
 .dbms {
-  	width: 50%;
+  	width: 65%;
   	-moz-animation: dbms 2s ease;
   	-webkit-animation: dbms 2s ease;
 }
@@ -378,7 +378,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes dbms {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
 
 @-webkit-keyframes pl {
@@ -403,7 +403,7 @@ ul#nav li.current a { color: #F06000; }
 }
 @-webkit-keyframes dbms {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 65%;  }
 }
 
 /* ------------------------------------------------------------------ */
