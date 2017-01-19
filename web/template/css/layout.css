@@ -303,13 +303,13 @@ ul#nav li.current a { color: #F06000; }
   border-radius: 3px;
 }
 .bars li em {
-  font: 15px 'opensans-bold', sans-serif;
+  font: 14px 'opensans-bold', sans-serif;
   color: #313131;
 	text-transform: uppercase;
   letter-spacing: 2px;
 	font-weight: normal;
   position: relative;
-	top: -36px;
+	top: -26px;
 }
 .bar-expand {
    position: absolute;

@@ -810,14 +810,51 @@ properly.
     color:rgb(244, 127, 39);
 }
 
-.skills > li.normal {
-    margin-bottom: 110px;
-}
-
-.skills > li.large {
-    margin-bottom: 150px;
-}
-
 .skills > li > p {
     margin-top: -20px;
+}
+
+@media only screen and (max-width: 320px) {
+    .skills > li {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .skills > li.xlarge {
+        margin-bottom: 200px;
+    }
+
+    .skills > li.large {
+        margin-bottom: 140px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .skills > li {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .skills > li.xlarge {
+        margin-bottom: 165px;
+    }
+
+    .skills > li.large {
+        margin-bottom: 120px;
+    }
+}
+
+@media only screen and (min-width: 415px) {
+    .skills > li {
+        margin-top: 30px;
+        margin-bottom: 100px;
+    }
+
+    .skills > li.xlarge {
+        margin-bottom: 125px;
+    }
+
+    .skills > li.large {
+        margin-bottom: 110px;
+    }
 }
