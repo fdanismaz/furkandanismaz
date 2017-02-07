@@ -326,12 +326,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .pl {
-  	width: 90%;
+  	width: 100%;
   	-moz-animation: pl 2s ease;
   	-webkit-animation: pl 2s ease;
 }
 .webapp {
-  	width: 80%;
+  	width: 100%;
   	-moz-animation: webapp 2s ease;
   	-webkit-animation: webapp 2s ease;
 }
@@ -355,14 +355,24 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: dbms 2s ease;
   	-webkit-animation: dbms 2s ease;
 }
+.bpm {
+  width: 75%;
+  -moz-animation: bpm 2s ease;
+  -webkit-animation: bpm 2s ease;
+}
+.ci {
+  width: 100%;
+  -moz-animation: ci 2s ease;
+  -webkit-animation: ci 2s ease;
+}
 
 @-moz-keyframes pl {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes webapp {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-moz-keyframes mobileapp {
   0%   { width: 0px;  }
@@ -380,14 +390,23 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 65%;  }
 }
+@-moz-keyframes bpm {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-moz-keyframes ci {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
+}
+
 
 @-webkit-keyframes pl {
   0%   { width: 0px;  }
-  100% { width: 90%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes webapp {
   0%   { width: 0px;  }
-  100% { width: 80%;  }
+  100% { width: 100%;  }
 }
 @-webkit-keyframes mobileapp {
   0%   { width: 0px;  }
@@ -404,6 +423,14 @@ ul#nav li.current a { color: #F06000; }
 @-webkit-keyframes dbms {
   0%   { width: 0px;  }
   100% { width: 65%;  }
+}
+@-webkit-keyframes bpm {
+  0%   { width: 0px;  }
+  100% { width: 75%;  }
+}
+@-webkit-keyframes ci {
+  0%   { width: 0px;  }
+  100% { width: 100%;  }
 }
 
 /* ------------------------------------------------------------------ */
