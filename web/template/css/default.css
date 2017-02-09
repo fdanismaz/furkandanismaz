@@ -842,6 +842,16 @@ properly.
     .skills > li.large {
         margin-bottom: 120px;
     }
+
+    .xs-hidden {
+        visibility: collapse;
+        display: none;
+    }
+
+    .xs-visible {
+        visibility: visible;
+        display: block;
+    }
 }
 
 @media only screen and (min-width: 415px) {
@@ -856,5 +866,15 @@ properly.
 
     .skills > li.large {
         margin-bottom: 110px;
+    }
+
+    .xs-hidden {
+        visibility: visible; 
+        display: block;       
+    }
+
+    .xs-visible {
+        visibility: collapse;
+        display: none;
     }
 }
