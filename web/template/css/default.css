@@ -817,30 +817,30 @@ properly.
 @media only screen and (max-width: 320px) {
     .skills > li {
         margin-top: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
     }
 
     .skills > li.xlarge {
-        margin-bottom: 200px;
+        margin-bottom: 250px;
     }
 
     .skills > li.large {
-        margin-bottom: 140px;
+        margin-bottom: 100px;
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 322px), screen and (max-width: 414px) {
     .skills > li {
         margin-top: 30px;
-        margin-bottom: 100px;
+        margin-bottom: 115px;
     }
 
     .skills > li.xlarge {
-        margin-bottom: 165px;
+        margin-bottom: 195px;
     }
 
     .skills > li.large {
-        margin-bottom: 120px;
+        margin-bottom: 135px;
     }
 
     .xs-hidden {
